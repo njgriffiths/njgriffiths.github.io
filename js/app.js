@@ -1,7 +1,7 @@
 require.config({
 	paths: {
-        // 'jquery': '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
-        'jquery': '/interactives/library/vendor/jquery/jquery-1.8.3.min',
+        'jquery': '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
+        // 'jquery': '/interactives/library/vendor/jquery/jquery-1.8.3.min',
         'unveil': 'vendor/ap.unveil'
 		// 'modernizr': 'vendor/modernizr-2.6.2-respond-1.1.0.min'
 	},
