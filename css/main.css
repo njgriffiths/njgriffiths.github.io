@@ -618,11 +618,15 @@ table {
 /* line 13, ../sass/_base.scss */
 #portfolio {
   font-family: Helvetica Neue, Helvetica, sans-serif;
-  padding: 2%;
+  padding: 0 1em 2em 1em;
 }
 /* line 17, ../sass/_base.scss */
+#portfolio #projects {
+  margin-top: 3em;
+}
+/* line 21, ../sass/_base.scss */
 #portfolio .project {
-  margin: 3em auto;
+  margin: 3em auto 2em auto;
   max-width: 500px;
   text-align: center;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -631,12 +635,12 @@ table {
   transition: transform 0.5s ease;
   vertical-align: top;
 }
-/* line 24, ../sass/_base.scss */
+/* line 28, ../sass/_base.scss */
 #portfolio .project .header {
   margin: 0;
   padding: 0;
 }
-/* line 28, ../sass/_base.scss */
+/* line 32, ../sass/_base.scss */
 #portfolio .project .header h2 {
   color: #343434;
   font-size: 1.05em;
@@ -649,20 +653,20 @@ table {
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-/* line 37, ../sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 #portfolio .project .header h2 .social {
   float: right;
   text-transform: lowercase;
 }
-/* line 41, ../sass/_base.scss */
+/* line 45, ../sass/_base.scss */
 #portfolio .project .header h2 .social a {
   text-decoration: none;
 }
-/* line 45, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 #portfolio .project .header h2 .social a:hover {
   color: #bd3212;
 }
-/* line 53, ../sass/_base.scss */
+/* line 57, ../sass/_base.scss */
 #portfolio .project img,
 #portfolio .project .background-image {
   -webkit-border-radius: 5px;
@@ -682,17 +686,17 @@ table {
   transition: -webkit-filter 0.5s linear, opacity 0.4s ease, transform 0.5s ease;
   width: 100%;
 }
-/* line 85, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 #portfolio .project img.visible,
 #portfolio .project .background-image.visible {
   opacity: 1;
 }
-/* line 90, ../sass/_base.scss */
+/* line 84, ../sass/_base.scss */
 #portfolio .project img:hover,
 #portfolio .project .background-image:hover {
   transform: scale(1.025);
 }
-/* line 94, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 #portfolio .project .description {
   color: #999;
   font-size: 0.9125em;
@@ -701,7 +705,7 @@ table {
   margin-top: 0;
   text-align: left;
 }
-/* line 104, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 #portfolio .project:hover h2 {
   color: #bd3212;
 }
@@ -710,18 +714,19 @@ table {
 /* MEDIA QUERIES
 /* ------------------------------------------------ */
 @media screen and (min-width: 600px) {
-  /* line 114, ../sass/_base.scss */
+  /* line 108, ../sass/_base.scss */
   #portfolio #projects {
+    margin-top: 2.5em;
     text-align: center;
   }
-  /* line 117, ../sass/_base.scss */
+  /* line 112, ../sass/_base.scss */
   #portfolio #projects .project {
     display: inline-block;
-    margin: 3em 1em;
+    margin: 1em;
     max-width: 250px;
     text-align: left;
   }
-  /* line 124, ../sass/_base.scss */
+  /* line 119, ../sass/_base.scss */
   #portfolio #projects img {
     background-position: center;
   }
