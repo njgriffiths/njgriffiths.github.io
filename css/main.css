@@ -696,11 +696,12 @@ table {
 #portfolio .project .description {
   color: #999;
   font-size: 0.9125em;
+  font-weight: 200;
   line-height: 1.3em;
   margin-top: 0;
   text-align: left;
 }
-/* line 103, ../sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 #portfolio .project:hover h2 {
   color: #bd3212;
 }
@@ -709,18 +710,18 @@ table {
 /* MEDIA QUERIES
 /* ------------------------------------------------ */
 @media screen and (min-width: 600px) {
-  /* line 123, ../sass/_base.scss */
+  /* line 114, ../sass/_base.scss */
   #portfolio #projects {
     text-align: center;
   }
-  /* line 126, ../sass/_base.scss */
+  /* line 117, ../sass/_base.scss */
   #portfolio #projects .project {
     display: inline-block;
     margin: 3em 1em;
     max-width: 250px;
     text-align: left;
   }
-  /* line 133, ../sass/_base.scss */
+  /* line 124, ../sass/_base.scss */
   #portfolio #projects img {
     background-position: center;
   }
