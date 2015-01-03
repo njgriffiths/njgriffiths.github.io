@@ -1,0 +1,149 @@
+// VARIABLES
+$webViewWidth: 600px;
+$imgHoverScale: 1.025;
+$imgScaleSpeed: 0.5s;
+$imgFadeInSpeed: 0.4s;
+$imgFilterSpeed: 0.5s;
+
+$highlightColour: #BD3212;
+
+
+
+/* PROJECTS SECTION */
+#portfolio {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	padding: 2%;
+	
+	.project {
+		margin: 3em auto;
+		max-width: 500px;
+		text-align: center;
+		@include transition(transform 0.5s ease);
+		vertical-align: top;
+
+		.header {
+			margin: 0;
+			padding: 0;
+
+			h2 {
+				color: #343434;
+				font-size: 1.05em;
+				font-weight: 200;
+				margin-bottom: 0;
+				text-align: left;
+				text-transform: uppercase;
+				@include transition(color 0.3s ease);
+
+				.social {
+					float: right;
+					text-transform: lowercase;
+
+					a {
+						text-decoration: none;
+					}
+
+					a:hover {
+						color: $highlightColour;
+					}
+				}
+			}
+		}
+
+		img,
+		.background-image {
+			// background-attachment: scroll;
+			// background-color: #AAA;
+			// background-image: url(../images/placeholder-map.png);
+			// background-position: top center;
+			// background-position: top;
+			// background-repeat: no-repeat;
+			// background-size: cover;
+			@include border-radius(5px);
+			@include box-shadow(1px 1px 1px #999);
+			margin: 2px 0 6px 0;
+			max-height: 250px;
+			opacity: 0;
+			@include transition(
+				-webkit-filter $imgFilterSpeed linear,
+				opacity $imgFadeInSpeed ease,
+				transform $imgScaleSpeed ease
+			);
+			width: 100%;
+		}
+
+		// img.grayscale {
+		// 	filter: gray;
+		// 	-webkit-filter: grayscale(100%); /* Safari 6+ */
+		// 	-moz-filter: grayscale(100%);
+		// 	-ms-filter: grayscale(100%);
+		// 	filter: grayscale(100%);
+		// 	// filter: url(greyscale.svg#greyscale);
+		//     // filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+		// }
+
+		img.visible,
+		.background-image.visible {
+			opacity: 1;
+		}
+
+		img:hover,
+		.background-image:hover {
+			transform: scale($imgHoverScale);
+		}
+
+		.description {
+			color: #999;
+			font-size: 0.9125em;
+			line-height: 1.3em;
+			margin-top: 0;
+			text-align: left;
+		}
+	}
+
+	.project:hover h2 {
+		color: $highlightColour;
+	}
+}
+
+
+
+// #portfolio .project.full-screen {
+// 	height: 100%;
+// 	transform: translate3d(0%,0%,0) scale3d(1,1,1);
+// 	position: absolute;
+// 	width: 100%;
+// 	z-index: 100;
+// }
+
+
+/* ------------------------------------------------ */
+/* MEDIA QUERIES
+/* ------------------------------------------------ */
+@media screen and (min-width: $webViewWidth) {
+	#portfolio #projects {
+		text-align: center;
+
+		.project {
+			display: inline-block;
+			margin: 3em 1em;
+			max-width: 250px;
+			text-align: left;
+		}
+
+		img {
+			background-position: center;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
