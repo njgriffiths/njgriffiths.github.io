@@ -5,8 +5,7 @@ require.config({
 	},
     shim: {
         'unveil': { deps: ['jquery'] }
-    },
-	urlArgs: 'bust=' + new Date().getTime()
+    }
 });
 
 define([
