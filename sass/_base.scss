@@ -69,11 +69,7 @@ $highlightColour: #BD3212;
 			margin: 2px 0 6px 0;
 			max-height: 250px;
 			opacity: 0;
-			@include transition(
-				-webkit-filter $imgFilterSpeed linear,
-				opacity $imgFadeInSpeed ease,
-				transform $imgScaleSpeed ease
-			);
+			@include transition(transform $imgScaleSpeed ease);
 			width: 100%;
 		}
 
@@ -94,11 +90,16 @@ $highlightColour: #BD3212;
 			line-height: 1.3em;
 			margin-top: 0;
 			text-align: left;
+			@include transition(color 0.4s ease);
 		}
 	}
 
 	.project:hover h2 {
 		color: $highlightColour;
+	}
+
+	.project:hover .description {
+		color: #343434;
 	}
 }
 

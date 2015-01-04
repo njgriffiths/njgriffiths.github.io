@@ -682,23 +682,23 @@ table {
   margin: 2px 0 6px 0;
   max-height: 250px;
   opacity: 0;
-  -webkit-transition: -webkit-filter 0.5s linear, opacity 0.4s ease, -webkit-transform 0.5s ease;
-  -moz-transition: -webkit-filter 0.5s linear, opacity 0.4s ease, -moz-transform 0.5s ease;
-  -o-transition: -webkit-filter 0.5s linear, opacity 0.4s ease, -o-transform 0.5s ease;
-  transition: -webkit-filter 0.5s linear, opacity 0.4s ease, transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  transition: transform 0.5s ease;
   width: 100%;
 }
-/* line 81, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 #portfolio .project img.visible,
 #portfolio .project .background-image.visible {
   opacity: 1;
 }
-/* line 86, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 #portfolio .project img:hover,
 #portfolio .project .background-image:hover {
   transform: scale(1.025);
 }
-/* line 90, ../sass/_base.scss */
+/* line 86, ../sass/_base.scss */
 #portfolio .project .description {
   color: #999;
   font-size: 0.9125em;
@@ -706,29 +706,37 @@ table {
   line-height: 1.3em;
   margin-top: 0;
   text-align: left;
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
 }
-/* line 100, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 #portfolio .project:hover h2 {
   color: #bd3212;
+}
+/* line 101, ../sass/_base.scss */
+#portfolio .project:hover .description {
+  color: #343434;
 }
 
 /* ------------------------------------------------ */
 /* MEDIA QUERIES
 /* ------------------------------------------------ */
 @media screen and (min-width: 600px) {
-  /* line 110, ../sass/_base.scss */
+  /* line 111, ../sass/_base.scss */
   #portfolio #projects {
     margin-top: 2.5em;
     text-align: center;
   }
-  /* line 114, ../sass/_base.scss */
+  /* line 115, ../sass/_base.scss */
   #portfolio #projects .project {
     display: inline-block;
     margin: 1em;
     max-width: 250px;
     text-align: left;
   }
-  /* line 121, ../sass/_base.scss */
+  /* line 122, ../sass/_base.scss */
   #portfolio #projects img {
     background-position: center;
   }
