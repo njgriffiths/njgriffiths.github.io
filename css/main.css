@@ -810,10 +810,6 @@ table {
 /* line 69, ../sass/_header-nav.scss */
 #portfolio .contact-nav .arrow {
   font-size: 0.6125em;
-  -webkit-transition: -webkit-transform 0.625s linear;
-  -moz-transition: -moz-transform 0.625s linear;
-  -o-transition: -o-transform 0.625s linear;
-  transition: transform 0.625s linear;
   vertical-align: middle;
 }
 /* line 75, ../sass/_header-nav.scss */

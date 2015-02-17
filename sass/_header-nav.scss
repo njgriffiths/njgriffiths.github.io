@@ -68,7 +68,7 @@ $contactHoverSpeed: 0.5s;
 
 	.arrow {
 		font-size: 0.6125em;
-		@include transition(transform ($contactHoverSpeed * 1.25) linear);
+		// @include transition(transform ($contactHoverSpeed * 1.25) linear);
 		vertical-align: middle;
 	}
 
