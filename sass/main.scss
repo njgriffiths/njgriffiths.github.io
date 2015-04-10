@@ -8,11 +8,18 @@
 
 
 
-// @font-face {
-// 	font-family: 'GoodWeb-Book';
-// 	src: url('../fonts/GoodWeb-Book.woff'),
-// 		 url('../fonts/GoodWeb-Book.eot');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
+@font-face {
+	font-family: 'Unica-Pro';
+	src: url('../fonts/NeueHaasUnicaPro-Thin.otf'),
+		 url('../fonts/NeueHaasUnicaPro-Thin.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'Unica-W1G';
+	src: url('../fonts/NeueHaasUnicaW1G-Thin.otf'),
+		 url('../fonts/NeueHaasUnicaW1G-Thin.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
