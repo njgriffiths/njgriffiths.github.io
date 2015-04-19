@@ -701,10 +701,10 @@ table {
 /* line 83, ../sass/_base.scss */
 #portfolio .project .description {
   color: #969696;
-  font-family: 'Garamond', 'Georgia', serif;
-  font-size: 0.9125em;
+  font-family: 'Garamond', serif;
+  font-size: 0.975em;
   font-weight: 200;
-  line-height: 1.3em;
+  line-height: 1.25em;
   margin-top: 0;
   text-align: left;
   -webkit-transition: color 0.4s ease;
