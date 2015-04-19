@@ -8,7 +8,7 @@ $highlightColour: #BD3212;
 
 /* PROJECTS SECTION */
 #portfolio {
-	font-family: 'Unica-Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-family: 'Unica-W1G', 'Helvetica Neue', 'Helvetica', sans-serif;
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 0 1em 2em 1em;
@@ -30,7 +30,7 @@ $highlightColour: #BD3212;
 
 			h2 {
 				color: #343434;
-				font-family: 'Unica-W1G', 'Helvetica Neue', 'Helvetica', sans-serif;
+				font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 				font-size: 1.05em;
 				font-weight: 200;
 				margin-bottom: 0;
@@ -82,9 +82,9 @@ $highlightColour: #BD3212;
 		}
 
 		.description {
-			color: #999;
+			color: #646464;
 			font-size: 0.9125em;
-			font-weight: 200;
+			font-weight: 400;
 			line-height: 1.3em;
 			margin-top: 0;
 			text-align: left;
@@ -97,7 +97,7 @@ $highlightColour: #BD3212;
 	}
 
 	.project:hover .description {
-		color: #343434;
+		color: #2C2C2C;
 	}
 }
 
