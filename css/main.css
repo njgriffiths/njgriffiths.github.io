@@ -617,16 +617,15 @@ table {
 /* PROJECTS SECTION */
 /* line 10, ../sass/_base.scss */
 #portfolio {
-  font-family: 'Unica-W1G', 'Helvetica Neue', 'Helvetica', sans-serif;
   margin: 0 auto;
   max-width: 900px;
   padding: 0 1em 2em 1em;
 }
-/* line 16, ../sass/_base.scss */
+/* line 15, ../sass/_base.scss */
 #portfolio #projects {
   margin-top: 3em;
 }
-/* line 20, ../sass/_base.scss */
+/* line 19, ../sass/_base.scss */
 #portfolio .project {
   margin: 3em auto 2em auto;
   max-width: 500px;
@@ -637,12 +636,12 @@ table {
   transition: transform 0.5s ease;
   vertical-align: top;
 }
-/* line 27, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
 #portfolio .project .header {
   margin: 0;
   padding: 0;
 }
-/* line 31, ../sass/_base.scss */
+/* line 30, ../sass/_base.scss */
 #portfolio .project .header h2 {
   color: #343434;
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -656,20 +655,20 @@ table {
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-/* line 41, ../sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 #portfolio .project .header h2 .social {
   float: right;
   text-transform: lowercase;
 }
-/* line 45, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 #portfolio .project .header h2 .social a {
   text-decoration: none;
 }
-/* line 49, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 #portfolio .project .header h2 .social a:hover {
   color: #bd3212;
 }
-/* line 57, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 #portfolio .project img,
 #portfolio .project .background-image {
   -webkit-border-radius: 5px;
@@ -689,21 +688,22 @@ table {
   transition: transform 0.3s ease;
   width: 100%;
 }
-/* line 75, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 #portfolio .project img.visible,
 #portfolio .project .background-image.visible {
   opacity: 1;
 }
-/* line 80, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 #portfolio .project img:hover,
 #portfolio .project .background-image:hover {
   transform: scale(1.025);
 }
-/* line 84, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 #portfolio .project .description {
-  color: #646464;
+  color: #969696;
+  font-family: 'Georgia', serif;
   font-size: 0.9125em;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.3em;
   margin-top: 0;
   text-align: left;
@@ -712,11 +712,11 @@ table {
   -o-transition: color 0.4s ease;
   transition: color 0.4s ease;
 }
-/* line 95, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 #portfolio .project:hover h2 {
   color: #bd3212;
 }
-/* line 99, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 #portfolio .project:hover .description {
   color: #2C2C2C;
 }
@@ -725,19 +725,19 @@ table {
 /* MEDIA QUERIES
 /* ------------------------------------------------ */
 @media screen and (min-width: 600px) {
-  /* line 109, ../sass/_base.scss */
+  /* line 110, ../sass/_base.scss */
   #portfolio #projects {
     margin-top: 2.5em;
     text-align: center;
   }
-  /* line 113, ../sass/_base.scss */
+  /* line 114, ../sass/_base.scss */
   #portfolio #projects .project {
     display: inline-block;
     margin: 1em;
     max-width: 250px;
     text-align: left;
   }
-  /* line 120, ../sass/_base.scss */
+  /* line 121, ../sass/_base.scss */
   #portfolio #projects img {
     background-position: center;
   }
@@ -745,11 +745,11 @@ table {
 /* ------------------------------------------------ */
 /* MAIN NAVIGATION
 /* ------------------------------------------------ */
-/* line 11, ../sass/_header-nav.scss */
+/* line 5, ../sass/_header-nav.scss */
 #portfolio header {
   text-align: center;
 }
-/* line 14, ../sass/_header-nav.scss */
+/* line 8, ../sass/_header-nav.scss */
 #portfolio header .title {
   color: #343434;
   font-family: 'Unica-W1G', 'Baskerville', 'Garamond', serif;
@@ -757,43 +757,43 @@ table {
   font-weight: 200;
   margin-bottom: 0;
 }
-/* line 22, ../sass/_header-nav.scss */
+/* line 16, ../sass/_header-nav.scss */
 #portfolio header h3 {
   font-size: 0.9125em;
-  font-weight: 400;
+  font-weight: 200;
   color: #969696;
   margin-top: -5px;
 }
 
-/* line 30, ../sass/_header-nav.scss */
+/* line 24, ../sass/_header-nav.scss */
 #portfolio .main-nav ul {
   margin-top: 3px;
   padding-left: 0;
 }
-/* line 34, ../sass/_header-nav.scss */
+/* line 28, ../sass/_header-nav.scss */
 #portfolio .main-nav ul li {
   border-left: 1px solid #969696;
   display: inline-block;
   padding: 0 3px 0 5px;
 }
-/* line 39, ../sass/_header-nav.scss */
+/* line 33, ../sass/_header-nav.scss */
 #portfolio .main-nav ul li a {
   color: #969696;
   font-weight: 200;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-/* line 46, ../sass/_header-nav.scss */
+/* line 40, ../sass/_header-nav.scss */
 #portfolio .main-nav ul li a:hover {
   color: #bd3212;
   text-decoration: none;
 }
-/* line 53, ../sass/_header-nav.scss */
+/* line 47, ../sass/_header-nav.scss */
 #portfolio .main-nav ul li:first-child {
   border-left: none;
 }
 
-/* line 58, ../sass/_header-nav.scss */
+/* line 52, ../sass/_header-nav.scss */
 #portfolio .contact-nav {
   left: 50%;
   margin-left: -60px;
@@ -801,7 +801,7 @@ table {
   position: absolute;
   width: 120px;
 }
-/* line 65, ../sass/_header-nav.scss */
+/* line 59, ../sass/_header-nav.scss */
 #portfolio .contact-nav .contact {
   font-weight: 200;
   -webkit-transition: color 0.5s ease;
@@ -809,12 +809,12 @@ table {
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
-/* line 70, ../sass/_header-nav.scss */
+/* line 64, ../sass/_header-nav.scss */
 #portfolio .contact-nav .arrow {
   font-size: 0.6125em;
   vertical-align: middle;
 }
-/* line 76, ../sass/_header-nav.scss */
+/* line 70, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul {
   margin: 0;
   max-height: 0;
@@ -825,16 +825,16 @@ table {
   -o-transition: max-height 0.5s linear;
   transition: max-height 0.5s linear;
 }
-/* line 84, ../sass/_header-nav.scss */
+/* line 78, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li {
   display: inline-block;
   padding: 0 1px;
 }
-/* line 88, ../sass/_header-nav.scss */
+/* line 82, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li a {
   text-decoration: none;
 }
-/* line 92, ../sass/_header-nav.scss */
+/* line 86, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li i {
   color: #969696;
   color: #BCBCBC;
@@ -843,33 +843,33 @@ table {
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
-/* line 98, ../sass/_header-nav.scss */
+/* line 92, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li i.fa-envelope-o:hover {
   color: #bd3212;
 }
-/* line 102, ../sass/_header-nav.scss */
+/* line 96, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li i.fa-twitter:hover {
   color: #55ACEE;
 }
-/* line 106, ../sass/_header-nav.scss */
+/* line 100, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li i.fa-tumblr:hover {
   color: #35465C;
 }
-/* line 110, ../sass/_header-nav.scss */
+/* line 104, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li i:visited {
   color: #969696;
   color: #BCBCBC;
 }
 
-/* line 118, ../sass/_header-nav.scss */
+/* line 112, ../sass/_header-nav.scss */
 #portfolio .contact-nav:hover {
   cursor: pointer;
 }
-/* line 121, ../sass/_header-nav.scss */
+/* line 115, ../sass/_header-nav.scss */
 #portfolio .contact-nav:hover .contact {
   color: #343434;
 }
-/* line 125, ../sass/_header-nav.scss */
+/* line 119, ../sass/_header-nav.scss */
 #portfolio .contact-nav:hover .contact .arrow {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -877,17 +877,17 @@ table {
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-/* line 131, ../sass/_header-nav.scss */
+/* line 125, ../sass/_header-nav.scss */
 #portfolio .contact-nav:hover ul {
   max-height: 40px;
 }
 
-/* line 136, ../sass/_header-nav.scss */
+/* line 130, ../sass/_header-nav.scss */
 #portfolio .social-nav ul {
   padding-left: 0;
   text-align: center;
 }
-/* line 140, ../sass/_header-nav.scss */
+/* line 134, ../sass/_header-nav.scss */
 #portfolio .social-nav ul li {
   border: 1px solid lightblue;
   display: inline-block;

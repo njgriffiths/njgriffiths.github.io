@@ -1,9 +1,3 @@
-// VARIABLES
-$navColour: #969696;
-$navHoverColour: orchid;
-$navHoverSpeed: 0.5s;
-$contactHoverSpeed: 0.5s;
-
 /* ------------------------------------------------ */
 /* MAIN NAVIGATION
 /* ------------------------------------------------ */
@@ -12,7 +6,7 @@ $contactHoverSpeed: 0.5s;
 	text-align: center;
 
 	.title {
-		color: #343434;
+		color: $titletextColour;
 		font-family: 'Unica-W1G', 'Baskerville', 'Garamond', serif;
 		font-size: 2.5em;
 		font-weight: 200;
@@ -21,8 +15,8 @@ $contactHoverSpeed: 0.5s;
 
 	h3 {
 		font-size: 0.9125em;
-		font-weight: 400;
-		color: #969696;
+		font-weight: 200;
+		color: $subtextColour;
 		margin-top: -5px;
 	}
 }
