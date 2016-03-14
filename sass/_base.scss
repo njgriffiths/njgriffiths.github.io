@@ -80,11 +80,28 @@ $highlightColour: #BD3212;
 			transform: scale($imgHoverScale);
 		}
 
+		#youtube-embed-container {
+			height: 0;
+			overflow: hidden;
+			padding-bottom: 56.25%; /* 16:9 */;
+			padding-top: 25px;
+			position: relative;
+			width: 100%;
+
+			iframe {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+		}
+
 		.description {
 			color: $subtextColour;
 			// font-family: 'Unica-W1G', 'Helvetica Neue', 'Helvetica', sans-serif;
 			font-family: 'Garamond', serif;
-			font-size: 0.975em;
+			font-size: 0.915em;
 			font-weight: 200;
 			line-height: 1.25em;
 			margin-top: 0;
