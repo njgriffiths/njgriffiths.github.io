@@ -65,7 +65,7 @@ $highlightColour: #BD3212;
 			@include box-shadow(1px 1px 1px #999);
 			margin: 2px 0 6px 0;
 			max-height: 250px;
-			opacity: 0;
+			// opacity: 0;
 			@include transition(transform $imgScaleSpeed ease);
 			width: 100%;
 		}
@@ -80,7 +80,7 @@ $highlightColour: #BD3212;
 			transform: scale($imgHoverScale);
 		}
 
-		#youtube-embed-container {
+		.youtube-embed-container {
 			height: 0;
 			overflow: hidden;
 			padding-bottom: 56.25%; /* 16:9 */;
