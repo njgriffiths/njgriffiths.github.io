@@ -871,12 +871,12 @@ table {
   color: #BCBCBC;
 }
 
-/* line 130, ../sass/_header-nav.scss */
+/* line 113, ../sass/_header-nav.scss */
 #portfolio .social-nav ul {
   padding-left: 0;
   text-align: center;
 }
-/* line 134, ../sass/_header-nav.scss */
+/* line 117, ../sass/_header-nav.scss */
 #portfolio .social-nav ul li {
   border: 1px solid lightblue;
   display: inline-block;
