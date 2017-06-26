@@ -69,11 +69,11 @@
 
 	ul {
 		margin: 0;
-		max-height: 0;
+		// max-height: 0;
 		overflow-y: hidden;
 		padding: 0;
 		
-		@include transition(max-height $contactHoverSpeed linear);
+		// @include transition(max-height $contactHoverSpeed linear);
 
 		li {
 			display: inline-block;
@@ -109,23 +109,23 @@
 	}
 }
 
-#portfolio .contact-nav:hover {
-	cursor: pointer;
+// #portfolio .contact-nav:hover {
+// 	cursor: pointer;
 
-	.contact {
-		// color: $highlightColour;
-		color: #343434;
+// 	.contact {
+// 		// color: $highlightColour;
+// 		color: #343434;
 
-		.arrow {
-			// color: $highlightColour;
-			@include transform(rotate(360deg));
-		}
-	}
+// 		.arrow {
+// 			// color: $highlightColour;
+// 			@include transform(rotate(360deg));
+// 		}
+// 	}
 
-	ul {
-		max-height: 40px;
-	}
-}
+// 	ul {
+// 		max-height: 40px;
+// 	}
+// }
 
 #portfolio .social-nav ul {
 	padding-left: 0;

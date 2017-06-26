@@ -832,13 +832,8 @@ table {
 /* line 70, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul {
   margin: 0;
-  max-height: 0;
   overflow-y: hidden;
   padding: 0;
-  -moz-transition: max-height 0.5s linear;
-  -o-transition: max-height 0.5s linear;
-  -webkit-transition: max-height 0.5s linear;
-  transition: max-height 0.5s linear;
 }
 /* line 78, ../sass/_header-nav.scss */
 #portfolio .contact-nav ul li {
@@ -874,26 +869,6 @@ table {
 #portfolio .contact-nav ul li i:visited {
   color: #969696;
   color: #BCBCBC;
-}
-
-/* line 112, ../sass/_header-nav.scss */
-#portfolio .contact-nav:hover {
-  cursor: pointer;
-}
-/* line 115, ../sass/_header-nav.scss */
-#portfolio .contact-nav:hover .contact {
-  color: #343434;
-}
-/* line 119, ../sass/_header-nav.scss */
-#portfolio .contact-nav:hover .contact .arrow {
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-/* line 125, ../sass/_header-nav.scss */
-#portfolio .contact-nav:hover ul {
-  max-height: 40px;
 }
 
 /* line 130, ../sass/_header-nav.scss */
