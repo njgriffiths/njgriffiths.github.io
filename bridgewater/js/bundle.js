@@ -415,7 +415,7 @@ cardContainer.insertAdjacentHTML('afterbegin', cardString);
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = [{"id":"tk","title":"tk tk tk","imageName":"case-study","url":"","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit fringilla nunc vel suscipit. Praesent viverra neque quis pharetra auctor. In ut congue risus, a elementum enim. Duis accumsan orci sit amet justo posuere, at dignissim urna vehicula. Nullam eget massa aliquam, interdum nulla eget, laoreet metus."},{"id":"school","title":"Small World Learning Center","imageName":"case-study","url":"","text":"The daycare facility was looking to expand but was concerned about increased energy costs. With support from Efficiency Nova Scotia, they created a business case for a slight increase in capital spending on better heating systems, appliances, lighting, and extra insulation. The result: even though their facility expanded its footprint by nearly 50%, they were able to reduce their energy bills to around 75% of what they consumed BEFORE the expansion! Thanks to their energy considerations during the planning process, they are now saving a documented 27,000 kWh per year, which is putting $5000 a year back into programming for the kids."},{"id":"home","title":"Eason Family Home Reno","imageName":"case-study","url":"","text":"Like most older homes in Bridgewater, the Eason’s well-loved older home was drafty and their heating bills were very high. Thinking they just needed new windows, they signed up for the town’s Clean Energy Financing program, which gave them access to up to low interest financing to do energy upgrades to the home. They were surprised to learn from their Home Energy Assessment that the best bang for their buck was actually not new windows but insulation. About $9000 later, their home energy costs were reduced by nearly $2000 per year, and their home was more comfortable, especially their childrens’ bedrooms. The financing is tied to the property, so it stays with the home even if they sell it. Best of all, they feel that they received quality advice and guidance through a process that they would likely not have completed on their own."}]
+module.exports = [{"id":"tk","title":"tk tk tk","imageName":"case-study","url":"","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit fringilla nunc vel suscipit. Praesent viverra neque quis pharetra auctor. In ut congue risus, a elementum enim. Duis accumsan orci sit amet justo posuere, at dignissim urna vehicula. Nullam eget massa aliquam, interdum nulla eget, laoreet metus."},{"id":"school","title":"Small World Learning Center","imageName":"case-study","url":"","text":"Small World was looking to expand but was concerned about increased energy costs. With support from Efficiency Nova Scotia, they increased spending on heating systems, appliances, lighting, and extra insulation – leading to a 75% reduction in their energy bills compared to before the expansion! They are now saving a documented 27,000 kWh per year, which is putting $5000 a year back into programming for the kids."},{"id":"home","title":"Eason Family Home Reno","imageName":"case-study","url":"","text":"Like most older homes in Bridgewater, the Eason’s well-loved older home was drafty and their heating bills were very high. They signed up for the town’s Clean Energy Financing program, which gave them access to up to low interest financing to do energy upgrades to the home. About $9000 later, their home energy costs were reduced by nearly $2000 per year, and their home was more comfortable, especially their childrens’ bedrooms. The financing is tied to the property, so it stays with the home even if they sell it."}]
 
 /***/ }),
 /* 6 */
@@ -443,7 +443,7 @@ module.exports = (Handlebars['default'] || Handlebars).template({"compiler":[7,"
     + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
     + "</p>\n\n	<div class=\"button-wrap\">\n		<a href=\""
     + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
-    + "\" class=\"button\">Learn More</a>\n	</div>\n</div>\n\n<div class=\"clear-float\"></div>";
+    + "\" class=\"button\">Learn More</a>\n	</div>\n</div>\n\n<div class=\"clearfix\"></div>";
 },"useData":true});
 
 /***/ }),
@@ -1373,7 +1373,7 @@ module.exports = (Handlebars['default'] || Handlebars).template({"compiler":[7,"
     + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
     + " <span class=\"learn-more\"><a href=\""
     + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
-    + "\">Learn More</a></span></p> \n	</div>\n\n	<div class=\"clear-float\"></div>\n</div>";
+    + "\">Learn More</a></span></p> \n	</div>\n\n	<div class=\"clearfix\"></div>\n</div>";
 },"useData":true});
 
 /***/ })
