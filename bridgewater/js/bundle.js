@@ -382,11 +382,10 @@ exports.logger = _logger2['default'];
 // DATA
 const caseStudies = __webpack_require__(5); 
 const cards = __webpack_require__(6); 
+
 // TEMPLATES
 const caseStudyTemplate = __webpack_require__(7);
 const cardsTemplate = __webpack_require__(23);
-
-// JS
 
 
 // BUILD OUT TEMPLATE CONTENT
@@ -441,9 +440,7 @@ module.exports = (Handlebars['default'] || Handlebars).template({"compiler":[7,"
     + alias4(((helper = (helper = helpers.imageName || (depth0 != null ? depth0.imageName : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imageName","hash":{},"data":data}) : helper)))
     + "-mobile.jpg\" alt=\"image\">\n	</picture>\n</div>\n\n<div class=\"text\">\n	<p>"
     + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
-    + "</p>\n\n	<div class=\"button-wrap\">\n		<a href=\""
-    + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
-    + "\" class=\"button\">Learn More</a>\n	</div>\n</div>\n\n<div class=\"clearfix\"></div>";
+    + "</p>\n\n</div>\n\n<div class=\"clearfix\"></div>";
 },"useData":true});
 
 /***/ }),
@@ -1371,9 +1368,7 @@ module.exports = (Handlebars['default'] || Handlebars).template({"compiler":[7,"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
     + "</h2>\n		<p>"
     + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
-    + " <span class=\"learn-more\"><a href=\""
-    + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
-    + "\">Learn More</a></span></p> \n	</div>\n\n	<div class=\"clearfix\"></div>\n</div>";
+    + " <span class=\"learn-more\">\n		</span></p> \n	</div>\n\n	<div class=\"clearfix\"></div>\n</div>";
 },"useData":true});
 
 /***/ })
