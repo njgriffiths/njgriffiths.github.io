@@ -10410,8 +10410,8 @@ var areaChart = __webpack_require__(509);
 // DATA
 // var caseStudies = require('../data/case-studies.json'); 
 // var cards = require('../data/cards.json'); 
-var cards = '../data/cards.json';
-var caseStudies = '../data/case-studies.json';
+var cards = './data/cards.json';
+var caseStudies = './data/case-studies.json';
 var investments = __webpack_require__(510);
 var savings = __webpack_require__(511);
 
@@ -10431,7 +10431,7 @@ document.addEventListener('DOMContentLoaded', (ev) => {
  	loadJSON(caseStudies, function(response) {
     	buildCaseStudies(JSON.parse(response))
  	});
- 	
+
 	// buildCards(cards);
 	// buildCaseStudies(caseStudies);
 
