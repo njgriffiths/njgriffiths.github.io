@@ -10426,10 +10426,10 @@ var tooltipAreaTemplate = __webpack_require__(530);
 document.addEventListener('DOMContentLoaded', (ev) => {
 	// BUILD OUT TEMPLATE CONTENT
 	loadJSON(cards, function(response) {
-    	buildCards(JSON.parse(response))
+    	buildCards(response);
  	});
  	loadJSON(caseStudies, function(response) {
-    	buildCaseStudies(JSON.parse(response))
+    	buildCaseStudies(response);
  	});
 
 	// buildCards(cards);
@@ -10469,17 +10469,19 @@ function buildCards(cards) {
 
 // FETCH JSON
 function loadJSON(json, callback) {   
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType('application/json');
-    xobj.open('GET', json, true); // Replace 'my_data' with the path to your file
+    var xhr = new XMLHttpRequest();
+    // xhr.overrideMimeType('application/json');
+
+    xhr.open('GET', json, true);
+    xhr.responseType = 'json';
    
-   	xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == '200') {
+   	xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == '200') {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-            callback(xobj.responseText);
-          }
+            callback(xhr.response);
+        }
     };
-    xobj.send(null);  
+    xhr.send(null);  
  }
 
 
