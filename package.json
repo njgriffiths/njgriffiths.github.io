@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.2",
-    "photoswipe": "^5.3.6",
+    "fslightbox": "^3.4.1",
     "vanilla-lazyload": "^17.8.3"
   },
   "devDependencies": {

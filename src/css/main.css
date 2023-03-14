@@ -501,6 +501,8 @@ table {
   padding: 0 1em 2em 1em; }
   #portfolio a {
     text-decoration: none; }
+  #portfolio #image-container {
+    cursor:pointer;}
   #portfolio #projects {
     margin-top: 3em; }
   #portfolio .project {

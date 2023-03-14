@@ -1,11 +1,13 @@
 // JS
+require('fslightbox');
 import LazyLoad from 'vanilla-lazyload';
 
 // CSS
 import './css/main.css';
 import './css/normalize.css';
+import './css/photoswipe.css';
 
-// IMG
+// IMG - THUMBS
 import placeholder from './images/placeholder.png';
 import bc_election from './images/bc-election.jpg';
 import print_thumbnail from './images/print-thumbnail.jpg';
@@ -39,10 +41,27 @@ import worldport from './images/worldport.jpg';
 import urban_forest from './images/urban-forest.jpg';
 import heat_islands from './images/heat-islands.jpg';
 
+// IMG - PRINT
+import oly from './images/print-gfx/oly-anniversary.jpg';
+import tweets from './images/print-gfx/poli-tweets.jpg';
+import isp from './images/print-gfx/isp-complaints.jpg';
+import ballot from './images/print-gfx/ballot-data.jpg';
+import map from './images/print-gfx/ethnicity-map.jpg';
+import pssdb from './images/print-gfx/public-sector-salaries.jpg';
+
 
 // JS
 const init = async () => {
     const myLazyLoad = new LazyLoad();
+
+    // lightbox for print gfx
+    
+    const lightbox = new FsLightbox();
+    const openLightbox = document.getElementById('image-container');
+    lightbox.props.sources = [pssdb, isp, ballot, tweets, map, oly];
+    openLightbox.addEventListener('click', () => {
+        lightbox.open();
+    });
 }
 
 init();
