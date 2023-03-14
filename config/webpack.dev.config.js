@@ -130,7 +130,7 @@ module.exports = {
 							// inline files < 4kb using bse64 URIs
 							limit: 4096,
 							// output folder for assets (ie: dist/assets)
-							outputPath: 'assets'
+							outputPath: 'images'
 						}
 					}
 				]
