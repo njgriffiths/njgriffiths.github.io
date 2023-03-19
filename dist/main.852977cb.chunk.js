@@ -3,12 +3,7 @@
 /* 1 */,
 /* 2 */,
 /* 3 */,
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
+/* 4 */,
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16,6 +11,18 @@
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35,10 +42,13 @@ var lazyload_min = __webpack_require__(2);
 var lazyload_min_default = /*#__PURE__*/__webpack_require__.n(lazyload_min);
 
 // EXTERNAL MODULE: ./src/css/main.css
-var main = __webpack_require__(4);
+var main = __webpack_require__(5);
 
 // EXTERNAL MODULE: ./src/css/normalize.css
-var normalize = __webpack_require__(5);
+var normalize = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./src/css/photoswipe.css
+var photoswipe = __webpack_require__(7);
 
 // CONCATENATED MODULE: ./src/images/placeholder.png
 /* harmony default export */ var placeholder = (__webpack_require__.p + "images/placeholder.png");
@@ -104,14 +114,30 @@ var normalize = __webpack_require__(5);
 /* harmony default export */ var urban_forest = (__webpack_require__.p + "images/urban-forest.jpg");
 // CONCATENATED MODULE: ./src/images/heat-islands.jpg
 /* harmony default export */ var heat_islands = (__webpack_require__.p + "images/heat-islands.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/oly-anniversary.jpg
+/* harmony default export */ var oly_anniversary = (__webpack_require__.p + "images/oly-anniversary.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/poli-tweets.jpg
+/* harmony default export */ var poli_tweets = (__webpack_require__.p + "images/poli-tweets.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/isp-complaints.jpg
+/* harmony default export */ var isp_complaints = (__webpack_require__.p + "images/isp-complaints.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/ballot-data.jpg
+/* harmony default export */ var ballot_data = (__webpack_require__.p + "images/ballot-data.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/ethnicity-map.jpg
+/* harmony default export */ var ethnicity_map = (__webpack_require__.p + "images/ethnicity-map.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/public-sector-salaries.jpg
+/* harmony default export */ var public_sector_salaries = (__webpack_require__.p + "images/public-sector-salaries.jpg");
 // CONCATENATED MODULE: ./src/index.js
 
 
+
 // JS
+__webpack_require__(4);
+
  // CSS
 
 
- // IMG
+
+ // IMG - THUMBS
 
 
 
@@ -138,6 +164,13 @@ var normalize = __webpack_require__(5);
 
 
 
+
+
+
+
+
+
+ // IMG - PRINT
 
 
 
@@ -148,14 +181,21 @@ var normalize = __webpack_require__(5);
 
 var init = /*#__PURE__*/function () {
   var _ref = asyncToGenerator_default()( /*#__PURE__*/regenerator_default.a.mark(function _callee() {
-    var myLazyLoad;
+    var myLazyLoad, lightbox, openLightbox;
     return regenerator_default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            myLazyLoad = new lazyload_min_default.a();
+            myLazyLoad = new lazyload_min_default.a(); // lightbox for print gfx
 
-          case 1:
+            lightbox = new FsLightbox();
+            openLightbox = document.getElementById('image-container');
+            lightbox.props.sources = [public_sector_salaries, isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
+            openLightbox.addEventListener('click', function () {
+              lightbox.open();
+            });
+
+          case 5:
           case "end":
             return _context.stop();
         }
@@ -171,4 +211,4 @@ var init = /*#__PURE__*/function () {
 init();
 
 /***/ })
-],[[6,1,2]]]);
+],[[8,1,2]]]);
