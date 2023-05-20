@@ -118,8 +118,8 @@ var photoswipe = __webpack_require__(7);
 /* harmony default export */ var ballot_data = (__webpack_require__.p + "images/ballot-data.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/ethnicity-map.jpg
 /* harmony default export */ var ethnicity_map = (__webpack_require__.p + "images/ethnicity-map.jpg");
-// CONCATENATED MODULE: ./src/images/print-gfx/public-sector-salaries.jpg
-/* harmony default export */ var public_sector_salaries = (__webpack_require__.p + "images/public-sector-salaries.jpg");
+// CONCATENATED MODULE: ./src/images/wildfire-map.jpg
+/* harmony default export */ var wildfire_map = (__webpack_require__.p + "images/wildfire-map.jpg");
 // CONCATENATED MODULE: ./src/index.js
 
 
@@ -171,6 +171,9 @@ __webpack_require__(4);
 
 
 
+ // import pssdb from './images/print-gfx/public-sector-salaries.jpg';
+// IMG – THUMBS
+
 
  // JS
 
@@ -185,7 +188,7 @@ var init = /*#__PURE__*/function () {
 
             lightbox = new FsLightbox();
             openLightbox = document.getElementById('image-container');
-            lightbox.props.sources = [public_sector_salaries, isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
+            lightbox.props.sources = [pssdb, isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
             openLightbox.addEventListener('click', function () {
               lightbox.open();
             });
