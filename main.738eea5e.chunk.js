@@ -188,7 +188,7 @@ var init = /*#__PURE__*/function () {
 
             lightbox = new FsLightbox();
             openLightbox = document.getElementById('image-container');
-            lightbox.props.sources = [pssdb, isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
+            lightbox.props.sources = [isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
             openLightbox.addEventListener('click', function () {
               lightbox.open();
             });
