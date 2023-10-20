@@ -501,6 +501,8 @@ table {
   padding: 0 1em 2em 1em; }
   #portfolio a {
     text-decoration: none; }
+  #portfolio .note {
+    font-style: italic;}
   #portfolio #image-container {
     cursor:pointer;}
   #portfolio #projects {
