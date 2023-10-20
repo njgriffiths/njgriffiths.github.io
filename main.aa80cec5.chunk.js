@@ -108,6 +108,8 @@ var photoswipe = __webpack_require__(7);
 /* harmony default export */ var heat_islands = (__webpack_require__.p + "images/heat-islands.jpg");
 // CONCATENATED MODULE: ./src/images/toxic-drug-deaths.jpg
 /* harmony default export */ var toxic_drug_deaths = (__webpack_require__.p + "images/toxic-drug-deaths.jpg");
+// CONCATENATED MODULE: ./src/images/iio-charges.jpg
+/* harmony default export */ var iio_charges = (__webpack_require__.p + "images/iio-charges.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/oly-anniversary.jpg
 /* harmony default export */ var oly_anniversary = (__webpack_require__.p + "images/oly-anniversary.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/poli-tweets.jpg
@@ -158,6 +160,7 @@ __webpack_require__(4);
 
 
  // import wc_goals from './images/wc-goals.jpg';
+
 
 
 
