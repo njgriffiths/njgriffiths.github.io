@@ -539,7 +539,8 @@ table {
       margin: 2px 0 6px 0;
       max-height: 250px;
       transition: transform 0.3s ease;
-      width: 100%; }
+      width: 100%; 
+      filter: drop-shadow(2px 2px 3px darkgrey);}
     #portfolio .project img.visible,
     #portfolio .project .background-image.visible {
       opacity: 1; }
