@@ -110,6 +110,8 @@ var photoswipe = __webpack_require__(7);
 /* harmony default export */ var toxic_drug_deaths = (__webpack_require__.p + "images/toxic-drug-deaths.jpg");
 // CONCATENATED MODULE: ./src/images/iio-charges.jpg
 /* harmony default export */ var iio_charges = (__webpack_require__.p + "images/iio-charges.jpg");
+// CONCATENATED MODULE: ./src/images/seniors-rent.jpg
+/* harmony default export */ var seniors_rent = (__webpack_require__.p + "images/seniors-rent.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/oly-anniversary.jpg
 /* harmony default export */ var oly_anniversary = (__webpack_require__.p + "images/oly-anniversary.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/poli-tweets.jpg
@@ -120,6 +122,8 @@ var photoswipe = __webpack_require__(7);
 /* harmony default export */ var ballot_data = (__webpack_require__.p + "images/ballot-data.jpg");
 // CONCATENATED MODULE: ./src/images/print-gfx/ethnicity-map.jpg
 /* harmony default export */ var ethnicity_map = (__webpack_require__.p + "images/ethnicity-map.jpg");
+// CONCATENATED MODULE: ./src/images/print-gfx/public-sector-salaries.jpg
+/* harmony default export */ var public_sector_salaries = (__webpack_require__.p + "images/public-sector-salaries.jpg");
 // CONCATENATED MODULE: ./src/images/wildfire-map.jpg
 /* harmony default export */ var wildfire_map = (__webpack_require__.p + "images/wildfire-map.jpg");
 // CONCATENATED MODULE: ./src/index.js
@@ -168,14 +172,15 @@ __webpack_require__(4);
 
 
 
+
  // IMG - PRINT
 
 
 
 
 
- // import pssdb from './images/print-gfx/public-sector-salaries.jpg';
-// IMG – THUMBS
+
+ // IMG – THUMBS
 
 
  // JS
@@ -191,7 +196,7 @@ var init = /*#__PURE__*/function () {
 
             lightbox = new FsLightbox();
             openLightbox = document.getElementById('image-container');
-            lightbox.props.sources = [isp_complaints, ballot_data, poli_tweets, ethnicity_map, oly_anniversary];
+            lightbox.props.sources = [public_sector_salaries, poli_tweets, ethnicity_map, oly_anniversary, isp_complaints, ballot_data];
             openLightbox.addEventListener('click', function () {
               lightbox.open();
             });
