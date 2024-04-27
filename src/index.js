@@ -42,6 +42,7 @@ import urban_forest from './images/urban-forest.jpg';
 import heat_islands from './images/heat-islands.jpg';
 import toxic_drugs from './images/toxic-drug-deaths.jpg';
 import iio_charges from './images/iio-charges.jpg';
+import seniors_rent from './images/seniors-rent.jpg';
 
 // IMG - PRINT
 import oly from './images/print-gfx/oly-anniversary.jpg';
@@ -49,7 +50,7 @@ import tweets from './images/print-gfx/poli-tweets.jpg';
 import isp from './images/print-gfx/isp-complaints.jpg';
 import ballot from './images/print-gfx/ballot-data.jpg';
 import map from './images/print-gfx/ethnicity-map.jpg';
-// import pssdb from './images/print-gfx/public-sector-salaries.jpg';
+import pssdb from './images/print-gfx/public-sector-salaries.jpg';
 // IMG – THUMBS
 import './images/wildfire-map.jpg';
 import './images/urban-forest.jpg';
@@ -61,10 +62,9 @@ const init = async () => {
     const myLazyLoad = new LazyLoad();
 
     // lightbox for print gfx
-    
     const lightbox = new FsLightbox();
     const openLightbox = document.getElementById('image-container');
-    lightbox.props.sources = [isp, ballot, tweets, map, oly];
+    lightbox.props.sources = [pssdb, tweets, map, oly, isp, ballot];
     openLightbox.addEventListener('click', () => {
         lightbox.open();
     });

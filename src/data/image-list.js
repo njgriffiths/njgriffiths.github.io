@@ -28,7 +28,8 @@ const imageList = [
     'old-world.jpg',
     'weegee.jpg',
     'paektu.jpg',
-    'worldport.jpg'
+    'worldport.jpg',
+    'seniors-rent.jpg'
 ];
 
 export default imageList;
