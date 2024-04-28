@@ -29,7 +29,8 @@ const imageList = [
     'weegee.jpg',
     'paektu.jpg',
     'worldport.jpg',
-    'seniors-rent.jpg'
+    'seniors-rent.jpg',
+    'nonbinary-comig.jpg'
 ];
 
 export default imageList;
