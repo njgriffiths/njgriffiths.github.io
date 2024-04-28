@@ -30,7 +30,7 @@ const imageList = [
     'paektu.jpg',
     'worldport.jpg',
     'seniors-rent.jpg',
-    'nonbinary-comig.jpg'
+    'nonbinary-comic.jpg'
 ];
 
 export default imageList;

@@ -22,7 +22,7 @@ import suite_life from './images/suite-life.jpg';
 import eln_2012 from './images/eln-2012.jpg';
 import taser_illo from './images/taser-illo.jpg';
 // import energize_bridgewater from './images/energize-bridgewater.jpg';
-import trading_signals from './images/trading-signals.jpg';
+// import trading_signals from './images/trading-signals.jpg';
 // import focus_dprk from './images/focus-dprk.jpg';
 import transgender_youth from './images/transgender-youth.jpg';
 import honduras from './images/honduras.jpg';
@@ -43,6 +43,8 @@ import heat_islands from './images/heat-islands.jpg';
 import toxic_drugs from './images/toxic-drug-deaths.jpg';
 import iio_charges from './images/iio-charges.jpg';
 import seniors_rent from './images/seniors-rent.jpg';
+import nonbinary_comic from './images/nonbinary-comic.jpg';
+
 
 // IMG - PRINT
 import oly from './images/print-gfx/oly-anniversary.jpg';
