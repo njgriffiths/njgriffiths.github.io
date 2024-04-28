@@ -1,54 +1,43 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],[
 /* 0 */,
 /* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
 /* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__(1);
-var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/regenerator/index.js
-var regenerator = __webpack_require__(0);
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
-
 // EXTERNAL MODULE: ./node_modules/vanilla-lazyload/dist/lazyload.min.js
-var lazyload_min = __webpack_require__(2);
+var lazyload_min = __webpack_require__(0);
 var lazyload_min_default = /*#__PURE__*/__webpack_require__.n(lazyload_min);
 
 // EXTERNAL MODULE: ./src/css/main.css
-var main = __webpack_require__(5);
+var main = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./src/css/normalize.css
-var normalize = __webpack_require__(6);
+var normalize = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./src/css/photoswipe.css
-var photoswipe = __webpack_require__(7);
+var photoswipe = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./src/images/placeholder.png
 /* harmony default export */ var placeholder = (__webpack_require__.p + "images/placeholder.png");
@@ -127,94 +116,76 @@ var photoswipe = __webpack_require__(7);
 // CONCATENATED MODULE: ./src/images/wildfire-map.jpg
 /* harmony default export */ var wildfire_map = (__webpack_require__.p + "images/wildfire-map.jpg");
 // CONCATENATED MODULE: ./src/index.js
+// JS
+__webpack_require__(1);
+
+
+// CSS
+
+
+
+
+// IMG - THUMBS
+
+
+
+
+
+
+// import shrimp_sheds from './images/shrimp-sheds.jpg';
+
+
+
+
+
+
+// import energize_bridgewater from './images/energize-bridgewater.jpg';
+
+// import focus_dprk from './images/focus-dprk.jpg';
+
+
+
+
+
+
+
+
+
+// import wc_goals from './images/wc-goals.jpg';
+
+
+
+
+
+
+
+
+
+
+// IMG - PRINT
+
+
+
+
+
+
+// IMG – THUMBS
 
 
 
 // JS
-__webpack_require__(4);
+const init = async () => {
+  const myLazyLoad = new lazyload_min_default.a();
 
- // CSS
-
-
-
- // IMG - THUMBS
-
-
-
-
-
-
- // import shrimp_sheds from './images/shrimp-sheds.jpg';
-
-
-
-
-
-
- // import energize_bridgewater from './images/energize-bridgewater.jpg';
-
- // import focus_dprk from './images/focus-dprk.jpg';
-
-
-
-
-
-
-
-
-
- // import wc_goals from './images/wc-goals.jpg';
-
-
-
-
-
-
-
-
-
- // IMG - PRINT
-
-
-
-
-
-
- // IMG – THUMBS
-
-
- // JS
-
-var init = /*#__PURE__*/function () {
-  var _ref = asyncToGenerator_default()( /*#__PURE__*/regenerator_default.a.mark(function _callee() {
-    var myLazyLoad, lightbox, openLightbox;
-    return regenerator_default.a.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            myLazyLoad = new lazyload_min_default.a(); // lightbox for print gfx
-
-            lightbox = new FsLightbox();
-            openLightbox = document.getElementById('image-container');
-            lightbox.props.sources = [public_sector_salaries, poli_tweets, ethnicity_map, oly_anniversary, isp_complaints, ballot_data];
-            openLightbox.addEventListener('click', function () {
-              lightbox.open();
-            });
-
-          case 5:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-
-  return function init() {
-    return _ref.apply(this, arguments);
-  };
-}();
-
+  // lightbox for print gfx
+  const lightbox = new FsLightbox();
+  const openLightbox = document.getElementById('image-container');
+  lightbox.props.sources = [public_sector_salaries, poli_tweets, ethnicity_map, oly_anniversary, isp_complaints, ballot_data];
+  openLightbox.addEventListener('click', () => {
+    lightbox.open();
+  });
+};
 init();
 
 /***/ })
-],[[8,1,2]]]);
+],[[5,1,2]]]);
