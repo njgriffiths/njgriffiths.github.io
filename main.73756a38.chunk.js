@@ -81,6 +81,8 @@ var photoswipe = __webpack_require__(4);
 /* harmony default export */ var vpd_budget = (__webpack_require__.p + "images/vpd-budget.jpg");
 // CONCATENATED MODULE: ./src/images/nimrud-riches.jpg
 /* harmony default export */ var nimrud_riches = (__webpack_require__.p + "images/nimrud-riches.jpg");
+// CONCATENATED MODULE: ./src/images/yucho.jpg
+/* harmony default export */ var yucho = (__webpack_require__.p + "images/yucho.jpg");
 // CONCATENATED MODULE: ./src/images/old-world.jpg
 /* harmony default export */ var old_world = (__webpack_require__.p + "images/old-world.jpg");
 // CONCATENATED MODULE: ./src/images/weegee.jpg
@@ -93,8 +95,8 @@ var photoswipe = __webpack_require__(4);
 /* harmony default export */ var urban_forest = (__webpack_require__.p + "images/urban-forest.jpg");
 // CONCATENATED MODULE: ./src/images/heat-islands.jpg
 /* harmony default export */ var heat_islands = (__webpack_require__.p + "images/heat-islands.jpg");
-// CONCATENATED MODULE: ./src/images/toxic-drug-deaths.jpg
-/* harmony default export */ var toxic_drug_deaths = (__webpack_require__.p + "images/toxic-drug-deaths.jpg");
+// CONCATENATED MODULE: ./src/images/candidate-lookup.jpg
+/* harmony default export */ var candidate_lookup = (__webpack_require__.p + "images/candidate-lookup.jpg");
 // CONCATENATED MODULE: ./src/images/iio-charges.jpg
 /* harmony default export */ var iio_charges = (__webpack_require__.p + "images/iio-charges.jpg");
 // CONCATENATED MODULE: ./src/images/seniors-rent.jpg
@@ -151,7 +153,7 @@ __webpack_require__(1);
 
 
 
-// import wc_goals from './images/wc-goals.jpg';
+
 
 
 
