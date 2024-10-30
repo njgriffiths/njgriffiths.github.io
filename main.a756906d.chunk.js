@@ -51,6 +51,8 @@ var photoswipe = __webpack_require__(4);
 /* harmony default export */ var second_line = (__webpack_require__.p + "images/second-line.jpg");
 // CONCATENATED MODULE: ./src/images/calais.jpg
 /* harmony default export */ var calais = (__webpack_require__.p + "images/calais.jpg");
+// CONCATENATED MODULE: ./src/images/bc-elxn-2024.jpg
+/* harmony default export */ var bc_elxn_2024 = (__webpack_require__.p + "images/bc-elxn-2024.jpg");
 // CONCATENATED MODULE: ./src/images/covid-20k.jpg
 /* harmony default export */ var covid_20k = (__webpack_require__.p + "images/covid-20k.jpg");
 // CONCATENATED MODULE: ./src/images/slave-fishermen.jpg
@@ -63,8 +65,6 @@ var photoswipe = __webpack_require__(4);
 /* harmony default export */ var eln_2012 = (__webpack_require__.p + "images/eln-2012.jpg");
 // CONCATENATED MODULE: ./src/images/taser-illo.jpg
 /* harmony default export */ var taser_illo = (__webpack_require__.p + "images/taser-illo.jpg");
-// CONCATENATED MODULE: ./src/images/transgender-youth.jpg
-/* harmony default export */ var transgender_youth = (__webpack_require__.p + "images/transgender-youth.jpg");
 // CONCATENATED MODULE: ./src/images/honduras.jpg
 /* harmony default export */ var honduras = (__webpack_require__.p + "images/honduras.jpg");
 // CONCATENATED MODULE: ./src/images/honor-killings.jpg
@@ -134,7 +134,7 @@ __webpack_require__(1);
 
 
 
-// import shrimp_sheds from './images/shrimp-sheds.jpg';
+
 
 
 
@@ -144,7 +144,7 @@ __webpack_require__(1);
 // import energize_bridgewater from './images/energize-bridgewater.jpg';
 // import trading_signals from './images/trading-signals.jpg';
 // import focus_dprk from './images/focus-dprk.jpg';
-
+// import transgender_youth from './images/transgender-youth.jpg';
 
 
 
