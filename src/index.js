@@ -53,6 +53,8 @@ import isp from './images/print-gfx/isp-complaints.jpg';
 import ballot from './images/print-gfx/ballot-data.jpg';
 import map from './images/print-gfx/ethnicity-map.jpg';
 import pssdb from './images/print-gfx/public-sector-salaries.jpg';
+import elxn_map from './images/print-gfx/elxn-map-2025.jpg';
+
 // IMG – THUMBS
 import './images/wildfire-map.jpg';
 import './images/urban-forest.jpg';
@@ -66,7 +68,7 @@ const init = async () => {
     // lightbox for print gfx
     const lightbox = new FsLightbox();
     const openLightbox = document.getElementById('image-container');
-    lightbox.props.sources = [pssdb, tweets, map, oly, isp, ballot];
+    lightbox.props.sources = [pssdb, tweets, oly, map, elxn_map, isp, ballot];
     openLightbox.addEventListener('click', () => {
         lightbox.open();
     });
