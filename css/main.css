@@ -640,10 +640,7 @@ table {
     border-left: none; }
 
 #portfolio .contact-nav {
-  left: 50%;
-  margin-left: -60px;
-  margin-top: 5px;
-  position: absolute;
+  margin: 5px auto 0;
   width: 120px; }
   #portfolio .contact-nav .contact {
     font-weight: 200;
@@ -664,10 +661,10 @@ table {
         color: #969696;
         color: #BCBCBC;
         transition: color 0.5s ease; }
-      #portfolio .contact-nav ul li i.fa-envelope-o:hover {
+      #portfolio .contact-nav ul li i.fa-envelope:hover {
         color: #BD3212; }
-      #portfolio .contact-nav ul li i.fa-twitter:hover {
-        color: #55ACEE; }
+      #portfolio .contact-nav ul li i.fa-bluesky:hover {
+        color: #0085ff; }
       #portfolio .contact-nav ul li i.fa-instagram:hover {
         color: #8a3ab9; }
       #portfolio .contact-nav ul li i:visited {
